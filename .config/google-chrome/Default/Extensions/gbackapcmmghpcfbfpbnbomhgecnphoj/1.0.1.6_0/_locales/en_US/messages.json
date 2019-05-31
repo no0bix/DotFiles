@@ -1,8 +1,0 @@
-{
-   "ext_description": {
-      "message": "Print a document from your computer or from Google Drive using Google Cloud Print service. Print to any cloud-connected printer."
-   },
-   "ext_name": {
-      "message": "Cloud Print with Drive"
-   }
-}

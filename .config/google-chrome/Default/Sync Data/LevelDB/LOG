@@ -1,6 +1,0 @@
-2019/05/31-07:26:11.877 40a Reusing MANIFEST /home/no0bix/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2019/05/31-07:26:11.877 40a Recovering log #116
-2019/05/31-07:26:11.882 40a Reusing old log /home/no0bix/.config/google-chrome/Default/Sync Data/LevelDB/000116.log 
-2019/05/31-09:04:12.131 b2b Level-0 table #121: started
-2019/05/31-09:04:12.143 b2b Level-0 table #121: 111475 bytes OK
-2019/05/31-09:04:12.149 b2b Delete type=0 #116

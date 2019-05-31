@@ -1,2 +1,0 @@
-Maiya
-checksum_v1 = 81773946837e39dbb4363efdc9251ff7
