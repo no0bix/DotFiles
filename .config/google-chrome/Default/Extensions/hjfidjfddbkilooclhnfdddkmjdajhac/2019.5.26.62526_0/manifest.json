@@ -1,0 +1,47 @@
+{
+   "app": {
+      "icon_color": "#FED8A2",
+      "launch": {
+         "web_url": "https://www.amazon.co.uk/gp/video/storefront/ref=atv_hm_hom_2_slct?contentType=home&filterId=OFFER_FILTER%3DYOURS_TO_WATCH"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://www.amazon.co.uk/favicon.ico"
+      }, {
+         "size": 24,
+         "url": "https://www.amazon.co.uk/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://www.amazon.co.uk/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://www.amazon.co.uk/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://www.amazon.co.uk/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://www.amazon.co.uk/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://www.amazon.co.uk/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://www.amazon.co.uk/favicon.ico"
+      } ]
+   },
+   "description": "Find, shop for and buy Prime Video at Amazon.co.uk",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "24": "icons/24.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "2wvCj86InadKhQo/UbQ4KmprF/pI9OX0dW+UGLHQczk=",
+   "name": "Prime Video",
+   "version": "2019.5.26.62526"
+}

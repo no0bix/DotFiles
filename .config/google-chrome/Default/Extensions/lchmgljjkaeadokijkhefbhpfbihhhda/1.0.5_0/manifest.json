@@ -1,0 +1,22 @@
+{
+   "api_console_project_id": "997500411335",
+   "app": {
+      "launch": {
+         "web_url": "https://www.googulator.com/"
+      },
+      "urls": [ "http://www.googulator.com/", "http://googulator.com/", "https://www.googulator.com/", "https://googulator.com/" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "description": "A gameboy emulator that runs directly inside chrome!",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtKeEHQ/t6jmkJ1iCY+YWnlF7Zycb4EdHJZ9LQwnxTigQvGbUuzUMp8fHtIZLPC1h2tCVGpKu0aZwKjRk6sGhxHbeMJa/d9oFM2PTafLFbMXLP+KN5ZCjaZ0R93pFKiEL4g4fW59i/zX1vGifeyvBRxaE2kW0B4ah6Yq8C3qtvjQIDAQAB",
+   "manifest_version": 2,
+   "name": "Googulator",
+   "offline_enabled": true,
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5"
+}

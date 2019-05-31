@@ -1,0 +1,19 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "The Chaotic Two-Player Telephone Game From 1897.",
+   "icons": {
+      "128": "icon-128.png",
+      "512": "icon-512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgJg9Pb511hI3TJbcnyP4j+fjsrlMKtg7OQIe4Du2bHZYlvo66ezsNycXQ4IbjvjfQkUfNtV/7E8H2bz8zhsRcW2XXSbHpxR/jY2oq2QQu7Nan4M/tnAM2+8GHwH/AmA+u8Jcai5dravPlvPJw27RDtCw2a/DBUiXOeyrsYxvKJqQLVfnI5xxmefrUz7D/qVv8vErf1c3ub+KGTZjeGwJaDvS9/2JHYMNQQjSenHsf454vNqhJBU6EoTNlBrCZa+YwqjF/tCH/jwN5VKFjrP8GgfiIK4yjxGM9qnaRcDac3QEg5TIoaFGrMcyL4Mb4q0ThWIR7mNDU/k/mPeTQvpCSwIDAQAB",
+   "manifest_version": 2,
+   "name": "Contranoid",
+   "offline_enabled": true,
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}

@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js", "js/analytics.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/i6.png",
+      "default_popup": "html/popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "js/library_youtube.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://www.google-analytics.com https://apis.google.com https://ajax.googleapis.com; style-src 'self' 'unsafe-inline' 'unsafe-eval' ; connect-src *; object-src 'self' ",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "images/default.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkILCwD9sd5qJa0YVeo/RaTEJld6WGU6POvS0q6OKG7GeJ84zW4YDHQdMxXlJwriDCQD4RKqRj434LWZOgpbd0WIlm6sD7JLFcPryi3kfPV1b4LEyt/77ERbHT8/n3Zuo+o8mIUCR1XPsLDclXyJQc4mVL+ti0LoWkCTBoPNGGb+wj0TJrA0rrtoqGV9IdfJzbV+nXEVvA6jIMMoNGtwuHQkUI/x43RpR73YO8mCxNwnMWLLH9m13AV9/HAaHlaHMRU2LIgMCPWDVRKIXC+xPGk9dgdY8MiglasLl2QlA2hXCxFCl9jPv0ls9OEEEorjjxQRGPEvCFRgE7y3/u02KzwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "alarms", "contextMenus", "privacy", "storage", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.3.03.46"
+}

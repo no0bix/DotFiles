@@ -1,0 +1,39 @@
+{
+   "app": {
+      "icon_color": "#A0A0A0",
+      "launch": {
+         "web_url": "https://remotedesktop.google.com/?lfhs=2"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "https://ssl.gstatic.com/chromoting/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://ssl.gstatic.com/chromoting/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://ssl.gstatic.com/chromoting/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://ssl.gstatic.com/chromoting/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://ssl.gstatic.com/chromoting/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://ssl.gstatic.com/chromoting/favicon.ico"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "JrX04cVU1Y64UoYsUEkadvoKGHBzuJ/yyTu9X5hvh7Y=",
+   "name": "Chrome Remote Desktop",
+   "version": "2019.5.26.62526"
+}

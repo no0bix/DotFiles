@@ -1,0 +1,46 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 600,
+       "width": 800,
+       "x": 560,
+       "y": 240
+    },
+    "name": "Telegram (1)",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^TelegramDesktop$"
+       // "instance": "^telegram\\-desktop$",
+       // "title": "^Telegram\\ \\(1\\)$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 296,
+       "width": 464,
+       "x": 488,
+       "y": 771
+    },
+    "name": "(1) All Mail | no0bix@protonmail.com | ProtonMail",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^Google\\-chrome$",
+        "instance": "^mail\\.protonmail\\.com__login$"
+       // "title": "^\\(1\\)\\ All\\ Mail\\ \\|\\ no0bix\\@protonmail\\.com\\ \\|\\ ProtonMail$",
+       // "window_role": "^pop\\-up$"
+       }
+    ],
+    "type": "con"
+}
+

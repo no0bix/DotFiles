@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "event.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon128.png",
+      "default_title": "Disable"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Allow chrome to play HLS urls in-browser",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo0meAQsSDvWKvv+rY44VFDA+3lJVfh3YrxU9I3/tVybcpXOIFEFXi413UMyhQwJQjOQMT8mW2rCLn2RH4NDFVkXHPsOhqf9UNhhwDJaqvnZenr8qc0dZOmvBbQCJ6WfiJ0M4oUoZhQyWRVuT7wKLjIrZmg4turcEDMUZA8t6OMDT46dd6KacAQRiCL4otBl7QL/ok8f2U2n8BCN4nZs1VWWQf7knK27+EyOHc/LNmR+xkcQVAaGkxYUNO8LYkQTuFgjs93xLtSjR0EgToXEwxQ7BugQ2eRqPUWs/HPrc6AEDXt4Y//ov0gPXqUjnfdLGSZunk+dqPo8RAVOMHaNZ6wIDAQAB",
+   "manifest_version": 2,
+   "name": "Native HLS Playback",
+   "permissions": [ "tabs", "http://nbastreams.pw", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.6",
+   "web_accessible_resources": [ "*.html" ]
+}

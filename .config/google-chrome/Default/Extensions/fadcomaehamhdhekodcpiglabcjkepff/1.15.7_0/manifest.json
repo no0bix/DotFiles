@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "Background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "ContentScript.js" ],
+      "matches": [ "https://app.roll20.net/editor", "https://app.roll20.net/editor/", "https://app.roll20.net/editor/#*", "https://app.roll20.net/editor#*", "https://app.roll20.net/editor/?*", "https://app.roll20.net/editor?*" ]
+   }, {
+      "js": [ "EarlyContentScript.js" ],
+      "matches": [ "https://app.roll20.net/editor", "https://app.roll20.net/editor/", "https://app.roll20.net/editor/#*", "https://app.roll20.net/editor#*", "https://app.roll20.net/editor/?*", "https://app.roll20.net/editor?*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "aka R20ES. Provides quality-of-life and workflow speed improvements to Roll20.",
+   "icons": {
+      "128": "logo128.png",
+      "16": "logo16.png",
+      "48": "logo48.png",
+      "96": "logo96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA10/ixnCgx8Xcb0TaUHEA7VnKeSgxs4Ov+3oqAMzTJh9Nh80B7r4Zl9X1sffZ+/TbsrX2hZ1zwLTvmP5rv8H77TLmgudZmFIUxdGlNqe3fFWRvxEBtjzMApFd//jywpuPNvhJdjETI28a6Y7zMhwH6c4NnkoplDUtTRBQs45tJQdCVmKR0ffchvoO05Shod41Bs1AK6WCW/DmZbxTkZJd7bJBYDXFSHlvLG/TiJ2e/uBBY+Tufq2Us9zcC/+AiWlvbZYKKS7r9lM0abvVOAxl64fBn/Uzqt8EGxJcQcEpcl3bpWXYle1Tvi8S4bkP2+F8Msk5uflyUbPHzgZ+74O0UQIDAQAB",
+   "manifest_version": 2,
+   "name": "VTT Enhancement Suite",
+   "permissions": [ "*://app.roll20.net/editor/", "*://app.roll20.net/editor", "*://app.roll20.net/editor?*", "*://app.roll20.net/editor#*", "webRequest", "webRequestBlocking", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.15.7",
+   "version_name": "1.15.7",
+   "web_accessible_resources": [ "*.tsx", "*.ts", "*.js", "*.css", "logo.svg", "*.png", "*.webm" ]
+}

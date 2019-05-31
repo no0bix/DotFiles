@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icon19.png",
+         "38": "icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "content_scripts": [ {
+      "js": [ "indicator.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCaHbADAG4wbPpxfZYVf7MLZnnlYRLJYdL7RgGQCLmzZT6tPe5gAHXuzgFcqCGi6FLR7QSkEWJoSiukZtJU8UJcZ+ijwKb/yvsR/2/R0Tg0UkK8UG72Xoy8RhLHECFCyZPSkHfhzmwsHcQG7emslzDyvB2H5CtYpYIPRO5D5z1BKQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "optional_permissions": [ "management" ],
+   "permissions": [ "downloads", "downloads.open", "downloads.shelf", "clipboardWrite", "clipboardRead", "notifications", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.7.2",
+   "web_accessible_resources": [ "icons/startd.png", "icons/startdr.png" ]
+}

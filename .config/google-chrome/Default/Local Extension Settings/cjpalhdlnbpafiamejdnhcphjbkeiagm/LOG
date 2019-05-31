@@ -1,0 +1,24 @@
+2019/05/31-07:26:14.701 591 Reusing MANIFEST /home/no0bix/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2019/05/31-07:26:14.701 591 Recovering log #13
+2019/05/31-07:26:14.704 591 Reusing old log /home/no0bix/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000013.log 
+2019/05/31-07:31:17.296 b2b Level-0 table #17: started
+2019/05/31-07:31:17.347 b2b Level-0 table #17: 2724186 bytes OK
+2019/05/31-07:31:17.351 b2b Delete type=0 #13
+2019/05/31-07:31:17.353 b2b Compacting 4@0 + 1@1 files
+2019/05/31-07:31:17.412 b2b Generated table #18@0: 9 keys, 2252328 bytes
+2019/05/31-07:31:17.450 b2b Generated table #19@0: 9 keys, 2381472 bytes
+2019/05/31-07:31:17.493 b2b Generated table #20@0: 7 keys, 2777064 bytes
+2019/05/31-07:31:17.518 b2b Generated table #21@0: 8 keys, 1393750 bytes
+2019/05/31-07:31:17.518 b2b Compacted 4@0 + 1@1 files => 8804614 bytes
+2019/05/31-07:31:17.522 b2b compacted to: files[ 0 4 1 0 0 0 0 ]
+2019/05/31-07:31:17.523 b2b Delete type=2 #9
+2019/05/31-07:31:17.523 b2b Delete type=2 #14
+2019/05/31-07:31:17.523 b2b Delete type=2 #12
+2019/05/31-07:31:17.524 b2b Delete type=2 #17
+2019/05/31-07:31:17.524 b2b Delete type=2 #7
+2019/05/31-07:54:17.718 b2b Level-0 table #23: started
+2019/05/31-07:54:17.756 b2b Level-0 table #23: 2220516 bytes OK
+2019/05/31-07:54:17.761 b2b Delete type=0 #16
+2019/05/31-07:58:14.509 b2b Level-0 table #25: started
+2019/05/31-07:58:14.594 b2b Level-0 table #25: 2730134 bytes OK
+2019/05/31-07:58:14.600 b2b Delete type=0 #22
