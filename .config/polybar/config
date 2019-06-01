@@ -345,7 +345,7 @@ type = internal/battery
 battery = BAT0
 ;adapter = ADP1
 adapter = AC
-full-at = 98
+full-at = 99
 
 ;format-charging-prefix = " "
 format-charging = C:<animation-charging> <label-charging>
@@ -353,12 +353,12 @@ format-charging-underline = #ffb52a
 
 ;format-discharging-prefix = " "
 format-discharging = D:<animation-discharging> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
+format-discharging-underline = #FF0000
 
 ;format-full-prefix = " "
 format-full = F: <label-full>
 format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
+format-full-underline = #008000
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
