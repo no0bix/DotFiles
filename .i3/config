@@ -318,7 +318,7 @@ exec --no-startup-id xfce4-power-manager
 #exec --no-startup-id mate-power-manager
 exec --no-startup-id xss-lock -- blurlock
 exec --no-startup-id pamac-tray
-exec --no-startup-id clipit
+#exec --no-startup-id clipit
 exec --no-startup-id blueman-applet
 exec --no-startup-id insync start
 # exec_always --no-startup-id sbxkb
