@@ -87,14 +87,18 @@ mode "$screens" {
 	# Default (Laptop Only)
 	bindsym m exec --no-startup-id xrandr --output eDP1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP1 --off --output DP2 --off --output VIRTUAL1 --off, mode "default"
 	# Both Screens Active
-	bindsym b exec xrandr --output eDP1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP1 --off --output DP2 --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off, mode "default"
-# Docked Mode (Monitor, no Laptop)
+	bindsym b exec xrandr --output eDP1 --off --output DP1 --primary --mode 1920x1080 --pos 0x0 --rotate normal && xrandr --output eDP1 --mode 1920x1080 --left-of DP1 --rotate normal --output DP1 --primary --mode 1920x1080 --pos 0x0 --rotate normal, mode "default"
+	# Docked Mode (Monitor, no Laptop)
 	bindsym d exec xrandr --output eDP1 --off --output DP1 --off --output DP2 --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off, mode "default"
-
+	
 	# Exit
 	bindsym Return mode "default"
 	bindsym Escape mode "default"
 }
+
+# move focused window between monitors
+bindsym $mod+Shift+greater move container to output right
+bindsym $mod+Shift+less move container to output left
 
 focus_follows_mouse no
 
