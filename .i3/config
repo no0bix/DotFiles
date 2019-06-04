@@ -250,6 +250,7 @@ for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="VirtualBox Manager"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 for_window [class="insync.py"] floating enable
+for_window [class="Firefox"] [title="Library"] floating enable
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
