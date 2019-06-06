@@ -27,6 +27,7 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 set $terminal i3-sensible-terminal
+
 # start a terminal
 #bindsym $mod+Return exec terminal
 bindsym $mod+Return exec $terminal
@@ -58,8 +59,8 @@ bindsym $mod+Ctrl+m exec pavucontrol
 
 # Start Applications
 bindsym $mod+Ctrl+b exec $terminal -e 'bmenu'
-#bindsym $mod+F2 exec palemoon
-bindsym $mod+Shift+w exec google-chrome-stable
+bindsym $mod+Shift+w exec firefox
+#bindsym $mod+Shift+w exec google-chrome-stable
 #bindsym $mod+Shift+f exec pcmanfm
 bindsym $mod+Shift+f exec thunar
 # bindsym $mod+F3 exec ranger
@@ -76,7 +77,9 @@ bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
 # Favourite Applications
 
-bindsym $mod+Ctrl+e exec --no-startup-id google-chrome-stable --app="https://mail.protonmail.com/login"
+#bindsym $mod+Ctrl+e exec --no-startup-id google-chrome-stable --app="https://mail.protonmail.com/login"
+bindsym $mod+Ctrl+e exec --no-startup-id chromium --app="https://mail.protonmail.com/login"
+#bindsym $mod+Ctrl+e exec --no-startup-id firefox --new-window "https://mail.protonmail.com/login"
 bindsym $mod+Ctrl+Shift+m exec --no-startup-id mcpelauncher-ui-qt
 
 
@@ -211,15 +214,19 @@ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
-assign [class="Google-chrome"] $ws1
+#assign [class="Google-chrome"] $ws1
+assign [class="Firefox"] $ws1
 #assign [class="Pcmanfm"] $ws4
 assign [class="Thunar"] = $ws4
 assign [class="vlc"] $ws4
 assign [class="URxvt"] $ws2
 assign [class="Termite"] $ws2
 assign [class="TelegramDesktop"] $ws3
-assign [class="mail.protonmail.com__login"] $ws3
+#assign [class="mail.protonmail.com__login"] $ws3
+#assign [title="Login | ProtonMail - Mozilla Firefox"] $ws3
+assign [class="Chromium"] $ws3
 assign [class="Minecraft Linux Launcher UI"] $ws5
+assign [class="VirtualBox Manager"] $ws6
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
@@ -247,7 +254,8 @@ for_window [class="(?i)System-config-printer.py"] floating enable border normal
 for_window [class="Skype"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 #for_window [class="(?i)virtualbox"] floating enable border normal
-for_window [class="VirtualBox Manager"] floating enable border normal
+#for_window [class="VirtualBox Manager"] floating enable border normal
+#for_window [class="VirtualBox Manager"] tabbed enable border normal
 for_window [class="Xfburn"] floating enable
 for_window [class="insync.py"] floating enable
 for_window [class="Firefox"] [title="Library"] floating enable
@@ -335,8 +343,11 @@ exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec --no-startup-id telegram-desktop
-exec --no-startup-id google-chrome-stable --app="https://mail.protonmail.com/login"
-exec --no-startup-id google-chrome-stable
+#exec --no-startup-id google-chrome-stable --app="https://mail.protonmail.com/login"
+exec --no-startup-id chromium --app="https://mail.protonmail.com/login"
+#exec --no-startup-id google-chrome-stable
+exec --no-startup-id firefox
+#exec --no-startup-id firefox --new-window "https://mail.protonmail.com/login"
 exec --no-startup-id $terminal
 exec --no-startup-id $terminal
 exec --no-startup-id $terminal
