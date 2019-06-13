@@ -9,13 +9,13 @@
        "x": 560,
        "y": 240
     },
-    "name": "Telegram (1)",
+    "name": "Telegram",
     "percent": 0.5,
     "swallows": [
        {
         "class": "^TelegramDesktop$"
        // "instance": "^telegram\\-desktop$",
-       // "title": "^Telegram\\ \\(1\\)$"
+       // "title": "^Telegram$"
        }
     ],
     "type": "con"
@@ -26,18 +26,18 @@
     "current_border_width": 1,
     "floating": "auto_off",
     "geometry": {
-       "height": 296,
-       "width": 464,
-       "x": 488,
-       "y": 771
+       "height": 984,
+       "width": 939,
+       "x": 968,
+       "y": 83
     },
-    "name": "(1) All Mail | no0bix@protonmail.com | ProtonMail",
+    "name": "Login | ProtonMail",
     "percent": 0.5,
     "swallows": [
        {
-        "class": "^Google\\-chrome$",
-        "instance": "^mail\\.protonmail\\.com__login$"
-       // "title": "^\\(1\\)\\ All\\ Mail\\ \\|\\ no0bix\\@protonmail\\.com\\ \\|\\ ProtonMail$",
+        "class": "^Google-chrome$"
+       // "instance": "^mail\\.protonmail\\.com__login$",
+       // "title": "^Login\\ \\|\\ ProtonMail$",
        // "window_role": "^pop\\-up$"
        }
     ],

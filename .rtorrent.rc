@@ -1,0 +1,14 @@
+# Directory to manage temporary downloads to
+directory = ~/Downloads/
+
+# Torrent sessions, to save and resume
+session = ~/.rtorrent_sessions/
+
+# DHT enabled
+dht = auto
+
+# Watch a directory for new torrents, restart torrents that have been
+# copied back and stop those that have been deleted.
+
+scgi_port = 127.0.0.1:5000
+xmlrpc_dialect=i8

@@ -1,6 +1,6 @@
 // vim:ts=4:sw=4:et
 {
-    // splitv split container with 2 children
+    // splitv split container with 1 children
     "border": "pixel",
     "floating": "auto_off",
     "layout": "splitv",
@@ -8,11 +8,11 @@
     "type": "con",
     "nodes": [
         {
-            // splith split container with 1 children
+            // stacked split container with 2 children
             "border": "pixel",
             "floating": "auto_off",
-            "layout": "splith",
-            "percent": 0.7,
+            "layout": "stacked",
+            "percent": 1,
             "type": "con",
             "nodes": [
                 {
@@ -25,12 +25,32 @@
                        "x": 0,
                        "y": 0
                     },
-                    "name": "no0bix@xps-13:~",
-                    "percent": 1,
+                    "name": "no0bix@macserver: ~",
+                    "percent": 0.5,
                     "swallows": [
                        {
                         "class": "^URxvt$"
-                       // "class": "^Termite$"
+                       // "instance": "^urxvt$",
+                       // "title": "^no0bix\\@macserver\\:\\ \\~$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 364,
+                       "width": 724,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "no0bix@xps-13:~",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                        "class": "^URxvt$"
                        // "instance": "^urxvt$",
                        // "title": "^no0bix\\@xps\\-13\\:\\~$"
                        }
@@ -38,7 +58,18 @@
                     "type": "con"
                 }
             ]
-        },
+        }
+    ]
+}
+
+{
+    // stacked split container with 1 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "stacked",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
         {
             "border": "pixel",
             "current_border_width": 1,
@@ -50,11 +81,10 @@
                "y": 0
             },
             "name": "no0bix@xps-13:~",
-            "percent": 0.3,
+            "percent": null,
             "swallows": [
                {
                 "class": "^URxvt$"
-               // "class": "^Termite$"
                // "instance": "^urxvt$",
                // "title": "^no0bix\\@xps\\-13\\:\\~$"
                }
@@ -62,28 +92,5 @@
             "type": "con"
         }
     ]
-}
-
-{
-    "border": "pixel",
-    "current_border_width": 1,
-    "floating": "auto_off",
-    "geometry": {
-       "height": 364,
-       "width": 724,
-       "x": 0,
-       "y": 0
-    },
-    "name": "no0bix@xps-13:~",
-    "percent": 0.5,
-    "swallows": [
-       {
-        "class": "^URxvt$"
-       // "class": "^Termite$"
-       // "instance": "^urxvt$",
-       // "title": "^no0bix\\@xps\\-13\\:\\~$"
-       }
-    ],
-    "type": "con"
 }
 

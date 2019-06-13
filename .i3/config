@@ -59,8 +59,8 @@ bindsym $mod+Ctrl+m exec pavucontrol
 
 # Start Applications
 bindsym $mod+Ctrl+b exec $terminal -e 'bmenu'
-bindsym $mod+Shift+w exec firefox
-#bindsym $mod+Shift+w exec google-chrome-stable
+#bindsym $mod+Shift+w exec firefox
+bindsym $mod+Shift+w exec google-chrome-stable
 #bindsym $mod+Shift+w exec chromium
 #bindsym $mod+Shift+f exec pcmanfm
 bindsym $mod+Shift+f exec thunar
@@ -78,8 +78,8 @@ bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
 # Favourite Applications
 
-#bindsym $mod+Ctrl+e exec --no-startup-id google-chrome-stable --app="https://mail.protonmail.com/login"
-bindsym $mod+Ctrl+e exec --no-startup-id chromium --app="https://mail.protonmail.com/login"
+bindsym $mod+Ctrl+e exec --no-startup-id google-chrome-stable --app="https://mail.protonmail.com/login"
+#bindsym $mod+Ctrl+e exec --no-startup-id chromium --app="https://mail.protonmail.com/login"
 #bindsym $mod+Ctrl+e exec --no-startup-id firefox --new-window "https://mail.protonmail.com/login"
 bindsym $mod+Ctrl+Shift+m exec --no-startup-id mcpelauncher-ui-qt
 
@@ -224,7 +224,7 @@ assign [class="vlc"] $ws4
 assign [class="URxvt"] $ws2
 assign [class="Termite"] $ws2
 assign [class="TelegramDesktop"] $ws3
-#assign [class="mail.protonmail.com__login"] $ws3
+assign [class="mail.protonmail.com__login"] $ws3
 #assign [title="Login | ProtonMail - Mozilla Firefox"] $ws3
 assign [class="Chromium"] $ws3
 assign [class="Minecraft Linux Launcher UI"] $ws5
@@ -345,10 +345,10 @@ exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec --no-startup-id telegram-desktop
-#exec --no-startup-id google-chrome-stable --app="https://mail.protonmail.com/login"
-exec --no-startup-id chromium --app="https://mail.protonmail.com/login"
-#exec --no-startup-id google-chrome-stable
-exec --no-startup-id firefox
+exec --no-startup-id google-chrome-stable --app="https://mail.protonmail.com/login"
+#exec --no-startup-id chromium --app="https://mail.protonmail.com/login"
+exec --no-startup-id google-chrome-stable
+#exec --no-startup-id firefox
 # exec --no-startup-id firefox --new-window "https://mail.protonmail.com/login"
 exec --no-startup-id $terminal
 exec --no-startup-id $terminal
